@@ -5,7 +5,8 @@ const cors = require('cors')
 
 mongoose.connect((process.env.MONGODSN2020 || 'mongodb+srv://<user>:<pass>@<cluster>/<database>'),{
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
 })
 
 const app = express()
