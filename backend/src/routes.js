@@ -3,9 +3,7 @@ const DevController = require('./controllers/DevController')
 
 const routes = Router()
 
-routes.get('/devs', (request, response) =>{
-    return response.json({devs: []})
-})
+routes.get('/devs', DevController.index)
 
 routes.get('/devs/:id', (request, response) => {
     // request.params.id
