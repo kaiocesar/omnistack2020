@@ -32,5 +32,13 @@ module.exports = {
         }
 
         return response.json(dev)
-    }    
+    },
+
+    async update(request, response) {
+
+    },
+
+    async destroy(request, response) {
+
+    }
 }
