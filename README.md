@@ -1,5 +1,8 @@
 
 # backend - api
+*[GET]* `/devs` retorna todos os devs disponíveis
+
+*[Post]* `/devs` 
 
 # frontend - app react
 
