@@ -9,6 +9,16 @@ main ul {
     list-style: none;
 }
 
+@media(max-width: 790px) {
+    main ul {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+}
+
 main ul li.dev-item {
     background-color: #FFF;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
