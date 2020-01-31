@@ -3,6 +3,7 @@ import './global.css'
 import './App.css'
 import './Sidebar.css'
 import './Main.css'
+import './services/api'
 
 function App() {
   const [github_username, setGithubUsername] = useState('')
