@@ -4,6 +4,10 @@
 
 *[Post]* `/devs` 
 
+*[Get]* `/search`
+
+*[Put]* `/devs/:id`
+
 # frontend - app react
 
 # mobile - app react native
