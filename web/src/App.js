@@ -48,6 +48,7 @@ function App() {
 
     setGithubUsername('')
     setTechs('')
+    setDevs([...devs, response.data])
 
   }
 
@@ -103,7 +104,7 @@ function App() {
         <ul>
 
           {devs.map(dev => ( 
-            <li className="dev-item">
+            <li className="dev-item" key={dev._id}>
               <header>
                 <img src={dev.avatar_url} alt={dev.name}/>
                 <div className="user-info">
