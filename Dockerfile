@@ -1,13 +1,13 @@
-FROM node:10
+FROM node:12
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY ./backend/package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY . ./
 
-EXPOSE 8080
+EXPOSE 4003
 
 CMD [ "node", "./backend/src/index.js" ]
